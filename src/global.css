@@ -1,0 +1,215 @@
+html, body {
+  background-color: black; 
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+/* Hide the scrollbar for all elements */
+::-webkit-scrollbar {
+  width: 0.1rem; 
+  height: 0.1rem; 
+  display: none;
+}
+
+
+/* Media query for laptop screens and mobile devices */
+@media (max-width: 600px) {
+
+  .container {   
+    text-align: center;
+  }
+
+  footer {
+    height: 8%;
+   }
+  
+}
+
+@media (max-width: 597px) {
+  .about-container {
+     background-size: 100% 100%;
+     background-position: center center;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+
+  .container {
+    text-align: center;
+  }
+
+  footer {
+    height: 8%;
+   }
+  
+}
+
+@media (max-width: 640px) {
+
+  .container {
+    text-align: center;
+  }
+
+  footer {
+    height: 8%;
+   }
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .container {
+    text-align: center;
+  }
+
+  footer {
+    height: 8%;
+   }
+  
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .container {
+    text-align: center;
+  }
+
+   footer {
+    height: 8%;
+   }
+
+}
+
+@media (min-width: 992px) { 
+
+  .container {
+    text-align: center;
+  }
+
+   footer {
+    height: 8%;
+   }
+
+}
+
+@media (min-width: 1200px) {
+
+   footer {
+    height: 8%;
+   }
+
+}
+
+/* For screens up to 600px wide (Mobile) */
+@media (max-width: 600px) {
+
+  #navLogo {
+    margin-right: 0px;
+  }
+
+  footer {
+    height: 8%;
+  }
+
+}
+
+/* Coffee cup image in home page*/
+@media (max-width: 776px) {
+  .homeText {
+    margin-left: 10px;
+  }
+   .coffeeCup {
+    margin-top: 40px;
+    margin-left: 245px;
+    width: 30%;
+   }
+}
+
+@media (max-width: 774px) {
+  .homeText {
+    margin-left: 160px;
+  }
+   .coffeeCup {
+    margin-top: 40px;
+    margin-left: 245px;
+    width: 30%;
+   }
+}
+
+@media (max-width: 771px) {
+  .homeText {
+    margin-left: 10px;
+  }
+   .coffeeCup {
+    margin-top: 40px;
+    margin-left: 245px;
+    width: 30%;
+   }
+}
+
+@media (max-width: 604px) {
+   .homeText {
+    margin-left: ;
+  }
+   .coffeeCup {
+    margin-top: 40px;
+    margin-left: 195px;
+    width: 40%;
+   }
+}
+
+@media (max-width: 506px) {
+   .coffeeCup {
+    margin-top: 40px;
+    margin-left: 165px;
+    width: 40%;
+   }
+}
+
+/* chocolate bars image in sign in or login file */
+@media (max-width: 992px) {
+   .bars {
+    margin-left: 150px;
+    width: 20%;
+   }
+}
+
+@media (max-width: 768px) {
+   .bars {
+    margin-left: 150px;
+    width: 20%;
+   }
+}
+
+@media (max-width: 644px) {
+   .bars {
+    margin-left: 230px;
+    width: 20%;
+   }
+}
+
+@media (max-width: 606px) {
+   .bars {
+    margin-left: 220px;
+   }
+}
+
+@media (max-width: 600px) {
+   .bars {
+    margin-left: 190px;
+   }
+   .nonMember {
+    margin-top: 20px;
+   }
+}
+
+@media (max-width: 550px) {
+   .bars {
+    margin-left: 180px;
+   }
+   .nonMember {
+    margin-top: 20px;
+   }
+}
